@@ -1,0 +1,59 @@
+lbm.c:724:31: error: use of undeclared identifier 'DAT_00405f78'
+  for ( local_8c = 0; dVar5 = DAT_00405f78,  dVar4 = DAT_00405f70,  dVar3 = DAT_00405f68, 
+                              ^
+lbm.c:724:54: error: use of undeclared identifier 'DAT_00405f70'
+  for ( local_8c = 0; dVar5 = DAT_00405f78,  dVar4 = DAT_00405f70,  dVar3 = DAT_00405f68, 
+                                                     ^
+lbm.c:724:77: error: use of undeclared identifier 'DAT_00405f68'
+  for ( local_8c = 0; dVar5 = DAT_00405f78,  dVar4 = DAT_00405f70,  dVar3 = DAT_00405f68, 
+                                                                            ^
+lbm.c:725:15: error: use of undeclared identifier 'DAT_00405f48'
+      dVar2 = DAT_00405f48,  dVar1 = DAT_00405f40,  local_8c < 200000; local_8c = local_8c + 0x14) {
+              ^
+lbm.c:725:38: error: use of undeclared identifier 'DAT_00405f40'
+      dVar2 = DAT_00405f48,  dVar1 = DAT_00405f40,  local_8c < 200000; local_8c = local_8c + 0x14) {
+                                     ^
+lbm.c:726:39: error: use of undeclared identifier 'DAT_00405f48'
+    auVar6 = ZEXT816( ( unsigned long)DAT_00405f48);
+                                      ^
+lbm.c:727:13: error: use of undeclared identifier 'DAT_00405fa8'
+    dVar9 = DAT_00405fa8 *
+            ^
+lbm.c:744:53: error: use of undeclared identifier 'DAT_00405fb8'
+    dVar10 = ( double)( ( local_8c / 0x14) % 100) / DAT_00405fb8 - DAT_00405f68;
+                                                    ^
+lbm.c:744:68: error: use of undeclared identifier 'DAT_00405f68'
+    dVar10 = ( double)( ( local_8c / 0x14) % 100) / DAT_00405fb8 - DAT_00405f68;
+                                                                   ^
+lbm.c:745:62: error: use of undeclared identifier 'DAT_00405fb8'
+    dVar11 = ( double)( ( ( local_8c / 0x14) / 100) % 100) / DAT_00405fb8 - DAT_00405f68;
+                                                             ^
+lbm.c:745:77: error: use of undeclared identifier 'DAT_00405f68'
+    dVar11 = ( double)( ( ( local_8c / 0x14) / 100) % 100) / DAT_00405fb8 - DAT_00405f68;
+                                                                            ^
+lbm.c:746:31: error: use of undeclared identifier 'DAT_00405f68'
+    dVar11 = DAT_00405fb0 * ( DAT_00405f68 - dVar10 * dVar10) * ( DAT_00405f68 - dVar11 * dVar11);
+                              ^
+lbm.c:746:14: error: use of undeclared identifier 'DAT_00405fb0'
+    dVar11 = DAT_00405fb0 * ( DAT_00405f68 - dVar10 * dVar10) * ( DAT_00405f68 - dVar11 * dVar11);
+             ^
+lbm.c:746:67: error: use of undeclared identifier 'DAT_00405f68'
+    dVar11 = DAT_00405fb0 * ( DAT_00405f68 - dVar10 * dVar10) * ( DAT_00405f68 - dVar11 * dVar11);
+                                                                  ^
+lbm.c:747:14: error: use of undeclared identifier 'DAT_00405fa0'
+    dVar10 = DAT_00405fa0 * ( dVar11 * dVar11 + 0.0);
+             ^
+lbm.c:748:50: error: use of undeclared identifier 'DAT_00405f68'
+    srcGrid[local_8c] = DAT_00405f50 * dVar9 * ( DAT_00405f68 - dVar10);
+                                                 ^
+lbm.c:748:25: error: use of undeclared identifier 'DAT_00405f50'
+    srcGrid[local_8c] = DAT_00405f50 * dVar9 * ( DAT_00405f68 - dVar10);
+                        ^
+lbm.c:749:28: error: invalid operands to binary expression ('char[16]' and 'int')
+    uVar7 = SUB164( auVar6 >> 0x20, 0);
+                    ~~~~~~ ^  ~~~~
+lbm.c:787:38: error: use of undeclared identifier 'DAT_00405f78'
+  for ( local_8c = 25800000; dVar5 = DAT_00405f78,  dVar4 = DAT_00405f70,  dVar3 = DAT_00405f68, 
+                                     ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.

@@ -1,0 +1,62 @@
+lbm.c:473:27: warning: call to undeclared function 'COERCE_DOUBLE'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+                    * ( ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) + uy)
+                          ^
+lbm.c:473:53: error: expected expression
+                    * ( ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) + uy)
+                                                    ^
+lbm.c:473:45: error: use of undeclared identifier '_QWORD'
+                    * ( ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) + uy)
+                                            ^
+lbm.c:474:60: error: expected expression
+                     * ( 4.5 * ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) + uy) + 3.0)
+                                                           ^
+lbm.c:474:52: error: use of undeclared identifier '_QWORD'
+                     * ( 4.5 * ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) + uy) + 3.0)
+                                                   ^
+lbm.c:480:54: error: expected expression
+                     * ( ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) - uy)
+                                                     ^
+lbm.c:480:46: error: use of undeclared identifier '_QWORD'
+                     * ( ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) - uy)
+                                             ^
+lbm.c:481:61: error: expected expression
+                      * ( 4.5 * ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) - uy) + 3.0)
+                                                            ^
+lbm.c:481:53: error: use of undeclared identifier '_QWORD'
+                      * ( 4.5 * ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) - uy) + 3.0)
+                                                    ^
+lbm.c:488:54: error: expected expression
+                     * ( ( COERCE_DOUBLE( *( _QWORD *)&uy ^ 0x8000000000000000LL) + uza)
+                                                     ^
+lbm.c:488:46: error: use of undeclared identifier '_QWORD'
+                     * ( ( COERCE_DOUBLE( *( _QWORD *)&uy ^ 0x8000000000000000LL) + uza)
+                                             ^
+lbm.c:489:61: error: expected expression
+                      * ( 4.5 * ( COERCE_DOUBLE( *( _QWORD *)&uy ^ 0x8000000000000000LL) + uza) + 3.0)
+                                                            ^
+lbm.c:489:53: error: use of undeclared identifier '_QWORD'
+                      * ( 4.5 * ( COERCE_DOUBLE( *( _QWORD *)&uy ^ 0x8000000000000000LL) + uza) + 3.0)
+                                                    ^
+lbm.c:494:54: error: expected expression
+                     * ( ( COERCE_DOUBLE( *( _QWORD *)&uy ^ 0x8000000000000000LL) - uza)
+                                                     ^
+lbm.c:494:46: error: use of undeclared identifier '_QWORD'
+                     * ( ( COERCE_DOUBLE( *( _QWORD *)&uy ^ 0x8000000000000000LL) - uza)
+                                             ^
+lbm.c:495:61: error: expected expression
+                      * ( 4.5 * ( COERCE_DOUBLE( *( _QWORD *)&uy ^ 0x8000000000000000LL) - uza) + 3.0)
+                                                            ^
+lbm.c:495:53: error: use of undeclared identifier '_QWORD'
+                      * ( 4.5 * ( COERCE_DOUBLE( *( _QWORD *)&uy ^ 0x8000000000000000LL) - uza) + 3.0)
+                                                    ^
+lbm.c:502:54: error: expected expression
+                     * ( ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) + uza)
+                                                     ^
+lbm.c:502:46: error: use of undeclared identifier '_QWORD'
+                     * ( ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) + uza)
+                                             ^
+lbm.c:503:61: error: expected expression
+                      * ( 4.5 * ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) + uza) + 3.0)
+                                                            ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+1 warning and 20 errors generated.

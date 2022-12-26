@@ -1,0 +1,25 @@
+lbm.c:398:13: error: cannot combine with previous 'int' declaration specifier
+typedef int BOOL;       // uppercase BOOL is usually 4 bytes
+            ^
+./config.h:19:14: note: expanded from macro 'BOOL'
+#define BOOL int
+             ^
+lbm.c:398:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef int BOOL;       // uppercase BOOL is usually 4 bytes
+^~~~~~~~~~~~~~~~
+lbm.c:936:27: warning: call to undeclared function 'COERCE_DOUBLE'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+                    * ( ( COERCE_DOUBLE( *( _QWORD *)&ux ^ 0x8000000000000000LL) + uy)
+                          ^
+lbm.c:1196:38: warning: format specifies type 'double *' but the argument has type 'float *' [-Wformat]
+                                                fscanf( file, "%lf %lf %lf\n", &fileUx, &fileUy, &fileUz );
+                                                               ~~~             ^~~~~~~
+                                                               %f
+lbm.c:1196:47: warning: format specifies type 'double *' but the argument has type 'float *' [-Wformat]
+                                                fscanf( file, "%lf %lf %lf\n", &fileUx, &fileUy, &fileUz );
+                                                                   ~~~                  ^~~~~~~
+                                                                   %f
+lbm.c:1196:56: warning: format specifies type 'double *' but the argument has type 'float *' [-Wformat]
+                                                fscanf( file, "%lf %lf %lf\n", &fileUx, &fileUy, &fileUz );
+                                                                       ~~~                       ^~~~~~~
+                                                                       %f
+5 warnings and 1 error generated.
